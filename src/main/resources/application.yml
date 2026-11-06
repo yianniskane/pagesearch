@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+page-search:
+  corpus-dir: C:/page-search/corpus
+  index-dir: C:/page-search/index
+  results-per-page: 20

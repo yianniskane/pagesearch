@@ -1,0 +1,154 @@
+:root {
+  font-family: "Segoe UI", sans-serif;
+  color: #1a1a1a;
+  background: #f6f5f2;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 42rem;
+  margin: 3rem auto 4rem;
+  padding: 0 1.5rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+label[for="q"] {
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.query {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input[type="text"],
+input:not([type]) {
+  flex: 1;
+  font: inherit;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #c8c2b6;
+  border-radius: 6px;
+  background: #fff;
+}
+
+button {
+  font: inherit;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid #8d6740;
+  border-radius: 6px;
+  background: #8d6740;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+fieldset {
+  border: 0;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+}
+
+fieldset:disabled {
+  opacity: 0.45;
+}
+
+fieldset.options {
+  margin-top: 0.35rem;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.message {
+  margin: 1rem 0 0;
+}
+
+.message button {
+  margin-left: 0.35rem;
+  background: transparent;
+  color: #6d4c2f;
+  border-color: transparent;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.summary {
+  margin: 1.25rem 0 0;
+  color: #5c564c;
+}
+
+.hits {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+}
+
+.hits li {
+  background: #fff;
+  border: 1px solid #e4e0d8;
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  margin-top: 0.75rem;
+}
+
+.id,
+.terms {
+  margin: 0.2rem 0 0;
+  color: #5c564c;
+  font-size: 0.85rem;
+}
+
+.id {
+  font-family: Consolas, monospace;
+}
+
+.snippet {
+  margin: 0.45rem 0 0;
+  white-space: pre-wrap;
+}
+
+mark {
+  background: #f3df9a;
+  color: inherit;
+  padding: 0 0.1em;
+}
+
+.pager {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.pager button {
+  background: #fff;
+  color: #1a1a1a;
+  border-color: #c8c2b6;
+}

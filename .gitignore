@@ -1,0 +1,15 @@
+target/
+index/
+index.building/
+index.previous/
+corpus/*
+!corpus/.gitkeep
+
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+frontend/node_modules/
+frontend/dist/
